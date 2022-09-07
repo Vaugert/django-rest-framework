@@ -14,7 +14,7 @@ from pathlib import Path
 import os
 
 if os.path.exists('env.py'):
-    import env
+    import env 
 
 
 CLOUDINARY_STORAGE = {
@@ -55,6 +55,8 @@ INSTALLED_APPS = [
     'posts',
     'comments',
     'likes',
+    'rest_framework.authtoken',
+    'dj_rest_auth',
 ]
 
 MIDDLEWARE = [
